@@ -8,6 +8,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<GastosContext>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("React",
+        policy =>
+        {
+            policy
+                .WithOrigins("http://localhost:5173")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+});
 
 var app = builder.Build();
 
@@ -20,5 +31,6 @@ if (app.Environment.IsDevelopment())
 
 app.PessoaRoutes();
 app.TransacaoRoutes();
+app.UseCors("React");
 app.UseHttpsRedirection();
 app.Run();
