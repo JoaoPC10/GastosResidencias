@@ -40,9 +40,16 @@ public static class PessoaRoute
             return Results.Ok(pessoa);
         });
 
-        route.MapDelete("{id:guid}", async (Guid id, PessoaRequest req, GastosContext context) =>
+        route.MapDelete("{id:guid}", async (Guid id, GastosContext context) =>
         {
-            
+            var pessoa = await context.Pessoa.FindAsync(id);
+            if(pessoa is null)
+            {
+                return Results.NotFound(new {mensagem = "Pessoa não encontrada!"});
+            }
+            context.Pessoa.Remove(pessoa);
+            await context.SaveChangesAsync();
+            return Results.NoContent();
         });
     }
 }
