@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/joao/teste_técnico/backend/GastosResidencias/GastosResidencias.csproj": {}
+    "/home/joao/Gastos_Residencias/backend/GastosResidencias.csproj": {}
   },
   "projects": {
-    "/home/joao/teste_técnico/backend/GastosResidencias/GastosResidencias.csproj": {
+    "/home/joao/Gastos_Residencias/backend/GastosResidencias.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/joao/teste_técnico/backend/GastosResidencias/GastosResidencias.csproj",
+        "projectUniqueName": "/home/joao/Gastos_Residencias/backend/GastosResidencias.csproj",
         "projectName": "GastosResidencias",
-        "projectPath": "/home/joao/teste_técnico/backend/GastosResidencias/GastosResidencias.csproj",
+        "projectPath": "/home/joao/Gastos_Residencias/backend/GastosResidencias.csproj",
         "packagesPath": "/home/joao/.nuget/packages/",
-        "outputPath": "/home/joao/teste_técnico/backend/GastosResidencias/obj/",
+        "outputPath": "/home/joao/Gastos_Residencias/backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/joao/.nuget/NuGet/NuGet.Config"

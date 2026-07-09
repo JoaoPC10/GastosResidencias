@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c4mzSSA+YXykR071lCyLKPwSlm5FeyLf3HGSaTOSBY4T+/lI8l/3yhYvTZnvGvdlRLUo3v9l2HC05RVlJuKi/g==",
+  "dgSpecHash": "8Ng92J9WwiFFoS4a2NIffMPoEv9qDDhfGZrbCnSugZ70kPOV/4n4+wqnCYNRA2uy7VNOQcm88wT0xBFtmq+row==",
   "success": true,
-  "projectFilePath": "/home/joao/teste_técnico/backend/GastosResidencias/GastosResidencias.csproj",
+  "projectFilePath": "/home/joao/Gastos_Residencias/backend/GastosResidencias.csproj",
   "expectedPackageFiles": [
     "/home/joao/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/joao/.nuget/packages/microsoft.aspnetcore.openapi/8.0.28/microsoft.aspnetcore.openapi.8.0.28.nupkg.sha512",

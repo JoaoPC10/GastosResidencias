@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GastosResidencias")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17c2c10e42edff2fca53eb99b375c8b4bf4347ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eab36d5f94e58b19b6856333cba58cbdbefe502b")]
 [assembly: System.Reflection.AssemblyProductAttribute("GastosResidencias")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GastosResidencias")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
